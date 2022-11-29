@@ -1,0 +1,25 @@
+.singleMovie {
+    background-color: midnightblue;
+    color: skyblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singleMovie p,
+.singleMovie ul li {
+    font-size: 1.4rem;
+}
+
+.singleMovie p,
+.singleMovie ul {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.singleMovie ul {
+    list-style-type: none;
+}

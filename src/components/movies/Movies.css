@@ -1,0 +1,36 @@
+.movieListSection {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.movieListSection h2 {
+    color: midnightblue;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.movieSortDiv {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.movieSortButton {
+    background-color: midnightblue;
+    color: skyblue;
+    border: 2px solid skyblue;
+    padding: 10px 20px;
+}
+
+.movieSortButton:hover {
+    border: 2px solid midnightblue;
+    color: midnightblue;
+    background-color: skyblue;
+}
+
+.movieCardSection {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
